@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main {
+    padding: 5px;
+  }
+  .blog-image{
+    height: 35vh;
+    width: 22vw;
+    border-radius: 15px;
+  }
+  .blog-section-heading, .offer-section-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    text-align: center;
+  }
+  .blog-container, .offer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+    margin-bottom: 30px;
+    filter: brightness(80%);
+  }
+  .blog-section{
+    width: 22vw;
+    margin-top: 5vh;
+    box-shadow: 0 0 10px rgba(42, 7, 7, 0.5);
+    border-radius: 15px;
+  }
+  .offer-section {
+    width: 20vw;
+    margin-top: 5vh;
+    box-shadow: 0 0 10px rgba(42, 7, 7, 0.5);
+    border-radius: 15px;
+    height: 72vh;
+  }
+  .offer-image {
+    height: 20vh;
+    width: 20vw;
+    border-radius: 15px;
+  }
+  .blog-container :hover, .offer-container :hover {
+    cursor: pointer;
+  }
+  .blog-heading, .offer-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1.1vw;
+    font-size: 1.7vw;
+  }
+  .blog-para{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1vh;
+    font-size: 20px;
+    line-height: 4vh;
+    padding: 1.1vw;
+    color: rgba(0, 0, 0, 0.849);
+  }
+  .offer-para {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 4vh;
+    padding: 1.1vw;
+    color: rgba(0, 0, 0, 0.849);
+  }
+  .offer-code, .offer-date {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 1.1vw;
+    color: rgba(0, 0, 0, 0.649);
+  }
+  .newsLetter {
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 9vh;
+    font-weight: 600;
+  }
+  .btn-container-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  .subscribe-btn {
+    padding: 10px;
+    background-color: yellowgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .subscribe-btn:hover {
+    box-shadow: 0 0 10px rgba(8, 8, 8);
+  }
+  
+  @media (max-width: 450px) {
+    .blog-container, .offer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; 
+      width: 100%;
+      overflow-x: hidden;
+    }
+  
+    .blog-section, .offer-section {
+      height: auto;
+      width: 70vw;
+      margin: 20px;
+      padding: 10px;
+    }
+  
+    .blog-image, .offer-image {
+      width: 65vw;
+      height: 30vh;
+    }
+  
+    .blog-heading, .offer-heading {
+      font-size: 18px;
+    }
+  
+    .blog-para, .offer-para {
+      line-height: 29px;
+      font-size: 16px;
+    }
+  
+    .offer-code, .offer-date {
+      font-size: 14.5px;
+    }
+  }
+  
+  @media (max-width: 780px) and (min-width: 450px) {
+    .blog-container, .offer-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .blog-section, .offer-section {
+      height: auto;
+      width: 50vw;
+      margin: 20px;
+      padding: 10px;
+    }
+  
+    .blog-image, .offer-image {
+      width: 46.4vw;
+      height: 30vh;
+    }
+  
+    .blog-heading, .offer-heading {
+      font-size: 20px;
+    }
+  
+    .blog-para, .offer-para {
+      line-height: 29px;
+      font-size: 18px;
+    }
+  
+    .offer-code, .offer-date {
+      font-size: 16px;
+    }
+  }
+  

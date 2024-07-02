@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.affiliate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.affiliate-content {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #004d4d;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.welcome-section {
+  margin-bottom: 3rem;
+}
+
+.welcome-text {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #004d4d;
+  margin-bottom: 2rem;
+  margin-top: 10vh;
+}
+
+.reasons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 10vh;
+}
+
+.reason {
+  flex: 1 1 45%;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(8,8,8);;
+  text-align: left;
+}
+
+.reason h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #004d4d;
+}
+
+.reason p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.steps-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .steps-list li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #121212;
+    background-color: #f9f9f9;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(8,8,8);
+  }
+  
+  .steps-list li b {
+    color: #004d4d;
+  }
+  
+
+.get-started-section{
+padding: 2vw;
+border-radius: 10px;
+color: rgb(25, 24, 24);
+}
+
+.section-heading-2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #004d4d;
+  margin-top: 8vh;
+  margin-bottom: 1vh;
+}
+
+.get-started-text {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.btn-signup {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: #009688;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-signup:hover {
+  background-color: #00796b;
+}
+
+@media (max-width:500px){
+  .main-heading{
+    font-size: 2rem;
+  }
+  .sub-heading{
+    font-size: 1.2rem;
+  }
+  .welcome-text{
+    font-size: 1.2rem;
+  }
+  .section-heading{
+    font-size: 1.8rem;
+  }
+  .reason-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .reason p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1vh;
+    font-size: 1rem;
+  }
+  .reason h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1vh;
+    font-size: 1.2rem;
+  }
+  .section-heading-2{
+    font-size: 1.8rem;
+  }
+  .get-started-text{
+    font-size: 1.2rem;
+  }
+  .steps-list li{
+    font-size: 1.1rem;
+  }
+
+}

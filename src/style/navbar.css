@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #004d4d;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    height: 8.5vh;
+    width: 100%;
+    justify-content: space-around;
+    filter: brightness(105%);
+  }
+
+  a{
+    color: #e0e0e0;
+    text-decoration: none;
+  }
+  
+  .logo-And-Name-Container {
+    height: 8.5vh;
+    width: 21rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  h3 {
+    cursor: pointer;
+    font-size: 1.6rem;
+    margin-right: 1rem;
+  }
+  
+  .navigator {
+    height: 8.5vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+  }
+  
+  .test {
+    margin-left: 1rem;
+    font-size: 1.05rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      height: 15vh;
+    }
+  
+    .logo-And-Name-Container {
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 0.5rem;
+    }
+  
+    .navigator {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 379px){
+    .test {
+      margin-left: 1rem;
+      font-size: 0.88rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      cursor: pointer;
+    }
+    .navigator {
+      width: 100%;
+      justify-content: center;
+    }
+  }

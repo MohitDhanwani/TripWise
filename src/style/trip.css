@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .trip-create-heading {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 7vh;
+    margin-top: 5vh;
+  }
+  
+  .trip-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input, .input-file {
+    font-size: 24px;
+    padding: 15px;
+    margin-top: 4vh;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #detailDes {
+    height: 150px;
+  }
+  
+  .file-input-label {
+    font-size: 24px;
+    padding: 15px;
+    margin-top: 4vh;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .input-file {
+    display: none;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50vw;
+  }
+  
+  .tripinfo-btn {
+    background-color: yellowgreen;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    padding: 7px;
+    width: 215px;
+    font-size: 27px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .tripinfo-btn:hover {
+    box-shadow: 0 0 10px rgba(8, 8, 8, 0.1);
+  }
+  
+  .trip-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+  }
+  
+  .checkbox-section {
+    margin-top: 4vh;
+    font-size: 18px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.4);
+    margin: 10px;
+  }
+  
+  @media(max-width:600px){
+    .trip-create-heading{
+      font-size: 1.6rem;
+    }
+    .trip-details-heading{
+      font-size: 1.5rem;
+    }
+    .input{
+      font-size: 1rem;
+    }
+   .agreement{
+    font-size: 0.9rem;
+   }
+   .upload-text{
+    font-size: 1rem;
+   }
+   .tripinfo-btn{
+    font-size: 1.3rem;
+   }
+  }

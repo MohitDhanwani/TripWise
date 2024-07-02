@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.payment-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-details {
+  height: 8vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  padding: 8px;
+  border-radius: 10px;
+  width: 30vw;
+  margin-top: 5vh;
+}
+
+.payments-heading {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-top: 5vh;
+}
+
+#checkbox {
+  margin-top: 22px;
+}
+
+.payment-btn {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px;
+  border-radius: 10px;
+  background-color: yellowgreen;
+  cursor: pointer;
+  margin-top: 4vh;
+}
+
+.stripe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.stripe-checkout {
+  transform: scale(1.5); /* Corrected typo from 'scale' to 'transform' */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 1200px) {
+  .input-details {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .input-details {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .input-details {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .input-details {
+    width: 80vw;
+    font-size: 1.1rem;
+    height: 6vh;
+  }
+
+  .payments-heading {
+    font-size: 20px;
+    margin-top: 3vh;
+  }
+
+  .payment-btn {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 3vh;
+  }
+}
